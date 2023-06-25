@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url(../imagens/bg-repeat.jpg) repeat-x;
+    background-color: #4588F9;
+}
+
+main {
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .informacao {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .informacao h1 {
+    max-width: 300px;
+    margin-bottom: 11px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFF;
+}
+
+main .informacao .texto-informativo {
+    max-width: 300px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+main .formulario {
+    background-color: #FFF;
+    max-width: 340px;
+    min-height: 380px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .conteudo>input,
+textarea {
+    width: 300px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.formulario .conteudo .obrigatorio {
+    margin-bottom: 10px;
+    font-size: 8px;
+    font-weight: 400;
+    color: red;
+    visibility: hidden;
+}
+
+.formulario .conteudo .obrigatorio:last-child{
+    margin-bottom: 0px;
+}
+
+.formulario .conteudo>textarea {
+    height: 100px;
+    resize: none;
+}
+
+.formulario .conteudo .legenda {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario .conteudo #botao-enviar {
+    margin-top: 7px;
+    background-color: hsla(151, 59%, 52%, 1);
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+@media(max-width: 420px){
+    main{
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacao{
+        margin: 0 30px;
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+
+}
