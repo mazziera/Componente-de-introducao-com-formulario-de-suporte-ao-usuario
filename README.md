@@ -30,8 +30,8 @@ Os usuários devem ser capazes de:
 
 ## Links
 
-- Repositório: 
-- Deploy: 
+- Repositório: https://github.com/mazziera/Componente-de-introducao-com-formulario-de-suporte-ao-usuario
+- Deploy: https://mazziera.github.io/Componente-de-introducao-com-formulario-de-suporte-ao-usuario/
 
 ## Meu Processo
 
